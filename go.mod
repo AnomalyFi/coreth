@@ -143,4 +143,4 @@ require (
 	rsc.io/tmplfunc v0.0.3 // indirect
 )
 
-replace github.com/ava-labs/avalanchego => ../avalanchego
+replace github.com/ava-labs/avalanchego => github.com/AnomalyFi/avalanchego v1.10.10-beta.2
