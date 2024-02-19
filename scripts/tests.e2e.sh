@@ -36,7 +36,7 @@ if [[ -d "${AVALANCHEGO_CLONE_PATH}" ]]; then
 else
   echo "creating new clone"
   git clone -b "${avalanche_version}"\
-      --single-branch https://github.com/ava-labs/avalanchego.git\
+      --single-branch https://github.com/AnomalyFi/avalanchego.git\
       "${AVALANCHEGO_CLONE_PATH}"
   cd "${AVALANCHEGO_CLONE_PATH}"
 fi
